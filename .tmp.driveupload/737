@@ -1,0 +1,48 @@
+a='ababc'
+repeaters=[]
+i,j=0,1
+inc=0
+a1,a2=[],[]
+for j in range(1,len(a)):
+
+    # print(j)
+    while a[i+inc]==a[j+inc] and j+inc+1!=len(a):
+        if j+inc!=len(a)-1:
+
+            inc+=1
+        # else:
+        #     continue
+
+    if(inc==0 and j==len(a)-1):
+        i+=1
+        j=i+1
+    elif inc>0:
+        # a1=a-a[i:i+inc]-a[j:j+inc]
+        print(inc)
+        print(i+inc,j+inc)
+        a1=a[i+inc+1:j]
+        a1=a1+a[j+inc:len(a)] if j+inc<len(a) else ''
+        a2=a[0:i]+a[i+inc:j]+a[j+inc:len(a)]
+        print(a1)
+        print(a1[0])
+        # print(a2)
+        # print(a2[0])
+        break
+
+
+    #
+    #
+    # # print(i)
+    # for j in range(1,len(a)):
+    #     # print(j)
+    #     if a[i]==a[j] and a[i+1]==a[j+1]:
+    #         break
+    #
+    # while a[i]==a[j] and j<len(a):
+    #     i+=1
+    #     j+=1
+    #
+    # if a[i+1]!=a[j+1]:
+    #     print(a[i+1])
+
+

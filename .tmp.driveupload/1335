@@ -1,0 +1,23 @@
+
+Lpython:S1066f"/Merge this if statement with the enclosing one.(³šïÃøÿÿÿÿ
+mpython:S116!"QRename this field "pageIndex" to match the regular expression ^[_a-z][_a-z0-9]*$.(Ó‡¹Éıÿÿÿÿ
+dpython:S116""NRename this field "rawUrl" to match the regular expression ^[_a-z][_a-z0-9]*$.(Æı¶o
+ipython:S116#"RRename this field "itemsTuple" to match the regular expression ^[_a-z][_a-z0-9]*$.(Ìñ«í
+hpython:S116%"QRename this field "DateToday" to match the regular expression ^[_a-z][_a-z0-9]*$.(ÑŞ®‹
+qpython:S116*"URename this field "fileYesterday" to match the regular expression ^[_a-z][_a-z0-9]*$.(ëõèüÿÿÿÿ
+ppython:S116"TRename this field "searchString" to match the regular expression ^[_a-z][_a-z0-9]*$.(ÒàÁÅùÿÿÿÿ
+mpython:S116)"QRename this field "fileToday" to match the regular expression ^[_a-z][_a-z0-9]*$.(¼“ƒåÿÿÿÿÿ
+epython:S100,"NRename method "readConfig" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÀÈÏª
+qpython:S1177"ZRename this local variable "fileToday" to match the regular expression ^[_a-z][a-z0-9_]*$.(’§ìú
+upython:S117<"^Rename this local variable "fileYesterday" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ş¶óà
+upython:S1001"YRename method "fileProcessorforPanda" to match the regular expression ^[a-z_][a-z0-9_]*$.(¡İ½Íúÿÿÿÿ
+;python:S1259"Remove this commented out code.(ˆ°ªÁúÿÿÿÿ
+zpython:S117Q"^Rename this local variable "fileYesterday" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ó²êûÿÿÿÿ
+tpython:S100K"]Rename method "fileProcessorWithoutPanda" to match the regular expression ^[a-z_][a-z0-9_]*$.(ˆÙúß
+jpython:S100_"NRename method "urlCreator" to match the regular expression ^[a-z_][a-z0-9_]*$.(ğ€Ôñùÿÿÿÿ
+jpython:S100b"SRename method "ifNextPageExist" to match the regular expression ^[a-z_][a-z0-9_]*$.(÷ÛÃ€
+qpython:S117p"ZRename this local variable "itemsList" to match the regular expression ^[_a-z][a-z0-9_]*$.(èĞ€˜
+zpython:S117‹"]Rename this local variable "searchResult" to match the regular expression ^[_a-z][a-z0-9_]*$.(ñ¯‰¼şÿÿÿÿ
+lpython:S100n"PRename method "amazonSearch" to match the regular expression ^[a-z_][a-z0-9_]*$.(«¥Ôùÿÿÿÿ
+Epython:S1481p"-Remove the unused local variable "itemsList".(èĞ€˜
+7python:S125§"Remove this commented out code.(ÆÔœ¦

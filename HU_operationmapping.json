@@ -1,0 +1,135 @@
+[{
+  "version": 4,
+  "operation": "setWhitelistUrls",
+  "operationDescription": "Set WhiteList Urls",
+  "operationActions": [{
+    "index": 0,
+    "type": "GET",
+    "params": [{
+      "acsAttributeKey": "Device.Hosts.X_DT_AccessControl.WhiteListURLs.",
+      "userInputRequired": false
+    }]
+  }, {
+    "index": 1,
+    "type": "CUSTOM",
+    "customDPSAction": {
+      "customDPSActionData": {
+        "customUrlWhitelistActionData": {
+          "prefix": "Device.Hosts.X_DT_AccessControl.WhiteListURLs.",
+          "urlSuffix": "URL"
+        }
+      }
+    }
+  }],
+  "cpeSpecification": {
+    "productClass": "FGA2233",
+    "manufacturer": "Technicolor",
+    "softwareVersion": "19.4.0507-4369007",
+    "managementSystem": "HDM"
+  },
+  "timeout": {
+    "$numberLong": "1000"
+  },
+  "_class": "com.dt.hgw.acs.om.core.domain.CPEOperationMappingV4"
+},
+{
+  "version": 4,
+  "operation": "setWhitelistUrls",
+  "operationDescription": "Set WhiteList Urls",
+  "operationActions": [{
+    "index": 0,
+    "type": "GET",
+    "params": [{
+      "acsAttributeKey": "Device.Hosts.X_DT_AccessControl.WhiteListURLs.",
+      "userInputRequired": false
+    }]
+  }, {
+    "index": 1,
+    "type": "CUSTOM",
+    "customDPSAction": {
+      "customDPSActionData": {
+        "customUrlWhitelistActionData": {
+          "prefix": "Device.Hosts.X_DT_AccessControl.WhiteListURLs.",
+          "urlSuffix": "URL"
+        }
+      }
+    }
+  }],
+  "cpeSpecification": {
+    "productClass": "FGA2233",
+    "manufacturer": "Technicolor",
+    "softwareVersion": "19.4.0507-4369024",
+    "managementSystem": "HDM"
+  },
+  "timeout": {
+    "$numberLong": "1000"
+  },
+  "_class": "com.dt.hgw.acs.om.core.domain.CPEOperationMappingV4"
+},
+{
+  "version": 4,
+  "operation": "deleteAllWhiteListUrls",
+  "operationDescription": "delete WhiteList Urls",
+  "operationActions": [{
+    "index": 0,
+    "type": "GET",
+    "params": [{
+      "acsAttributeKey": "Device.Hosts.X_DT_AccessControl.WhiteListURLs.",
+      "userInputRequired": false
+    }]
+  }, {
+    "index": 1,
+    "type": "CUSTOM",
+    "customDPSAction": {
+      "customDPSActionData": {
+        "customUrlWhitelistActionData": {
+          "prefix": "Device.Hosts.X_DT_AccessControl.WhiteListURLs."
+        }
+      }
+    }
+  }],
+  "cpeSpecification": {
+    "productClass": "FGA2233",
+    "manufacturer": "Technicolor",
+    "softwareVersion": "19.4.0507-4369007",
+    "managementSystem": "HDM"
+  },
+  "timeout": {
+    "$numberLong": "1000"
+  },
+  "_class": "com.dt.hgw.acs.om.core.domain.CPEOperationMappingV4"
+},
+{
+  "version": 4,
+  "operation": "deleteAllWhiteListUrls",
+  "operationDescription": "delete WhiteList Urls",
+  "operationActions": [{
+    "index": 0,
+    "type": "GET",
+    "params": [{
+      "acsAttributeKey": "Device.Hosts.X_DT_AccessControl.WhiteListURLs.",
+      "userInputRequired": false
+    }]
+  }, {
+    "index": 1,
+    "type": "CUSTOM",
+    "customDPSAction": {
+      "customDPSActionData": {
+        "customUrlWhitelistActionData": {
+          "prefix": "Device.Hosts.X_DT_AccessControl.WhiteListURLs."
+        }
+      }
+    }
+  }],
+  "cpeSpecification": {
+    "productClass": "FGA2233",
+    "manufacturer": "Technicolor",
+    "softwareVersion": "19.4.0507-4369024",
+    "managementSystem": "HDM"
+  },
+  "timeout": {
+    "$numberLong": "1000"
+  },
+  "_class": "com.dt.hgw.acs.om.core.domain.CPEOperationMappingV4"
+}
+]

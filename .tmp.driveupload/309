@@ -1,0 +1,69 @@
+import logging
+arr = [2, 7, 9, 7, 1, 5, 8, 5, 3, 8, 7, 4]
+# arr = [2, 4, 3, 5, 1, 5, 8, 7, 9, 8, 7, 7]
+k = 7
+# output:
+# of min swaps so that left side have smaller only
+
+left = 0
+right = len(arr) - 1
+output = 0
+
+print("This is the first output ", arr, output, end='\n')
+
+while (left <= right):
+    if (arr[left] <= k):
+        print("left +1 done to ", arr[left])
+        left += 1
+        continue
+
+    elif (arr[left] > k):
+        if (arr[right] <= k):
+            arr[left], arr[right] = arr[right], arr[left]
+            print("swap done for", left, "=", arr[left], ",", right, "=", arr[left], end='\n')
+            output += 1
+            left += 1
+            right -= 1
+        else:
+            print("right -1 done to ", arr[right])
+            right -= 1
+
+# print("This is the first output ", arr, "", output)
+logging=logging.getLogger(__name__)
+
+
+logging.info("This is the first output ", arr, "", output)
+
+# ---------------
+
+#
+# index=0
+# toSwap=0
+# indexOfK=False
+# lessThanK={}
+# moreThanK= {}
+# numberOfSwitch=0
+# numberOfK=len(arr)-len(lessThanK)-len(moreThanK)
+#
+#
+#
+# for i in range(len(arr)):
+#     if(arr[i]==k):
+#         indexOfK=i
+#     if(arr[i]>k):
+#         lessThanK.update({i:arr[i]})
+#     if(arr[i]<k):
+#         moreThanK.update({i: arr[i]})
+#
+# # if(indexOfK):
+# #     while((i<indexOfK for i in moreThanK.keys()) or ()):
+# #         None
+#
+#     # numberOfSwitch=(len(lessThanK))
+#
+# # len([i if i<indexOfK else None for i in moreThanK.keys()])
+#
+# print(len([i if i>indexOfK else None for i in lessThanK.keys()])+len(arr)-(len(lessThanK)+len(moreThanK))-1)
+#
+# print(  (indexOfK-len([i if i<indexOfK else None for i in lessThanK.keys()]))     )
+#

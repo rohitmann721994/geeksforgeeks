@@ -1,0 +1,16 @@
+/rdk/crash-portal/api/v2/api-docs
+/rdk/firmware-upgrade-support/api/v2/api-docs
+/rdk/firmware-upgrade-support/api/v2/firmware/release/info
+/rdk/petasos-rewriter-hu/api/v2/device
+/rdk/themis-hu/issue
+/rdk/themis-hu/token
+/rdk/tr1d1um-hu/api/v2/device/mac:$device_mac_address/config
+/rdk/tr1d1um-hu/api/v2/device/mac:$device_mac_address/stat
+/rdk/tr1d1um-hu/api/v2/hook
+/rdk/tr1d1um/api/v2/device/mac:$device_mac_address/config
+/rdk/tr1d1um/api/v2/device/mac:$device_mac_address/stat
+/rdk/xconf-admin-hu/ux/app/
+/rdk/xconf-data-service-hu/
+/rdk/xconf-admin-hu/ux/
+/rdk/xconf-admin-hu/ux/api/
+/rdk/telemetry-data-capture/api/
